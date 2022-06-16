@@ -16,12 +16,6 @@ public class CuentaAtras : MonoBehaviour
         Countdown();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void Initialitation()
     {
         cocheControllerGO = GameObject.Find("CocheController");
